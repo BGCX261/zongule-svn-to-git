@@ -1,0 +1,79 @@
+﻿La génération a démarré 17/12/2011 17:09:21.
+     1>Projet "C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\DllModeleCpp\DllModeleCpp.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "Debug\DllModeleCpp.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       GenerateTargetFrameworkMonikerAttribute:
+       La cible est ignorée "GenerateTargetFrameworkMonikerAttribute", car tous les fichiers de sortie sont à jour par rapport aux fichiers d'entrée.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\DllModeleCpp.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib 
+         Stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\DllModeleCpp.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt ImplementationStd\ArtefactSquareStd.cpp AssemblyInfo.cpp ImplementationStd\AsteroidSquareStd.cpp ImplementationStd\BattlecruiserStd.cpp ImplementationStd\EmptySquareStd.cpp ImplementationStd\EnergyStationSquareStd.cpp ImplementationStd\GameBuilderStd.cpp ImplementationStd\GameDicesStd.cpp ImplementationStd\GameManager.cpp ImplementationStd\GameStd.cpp ImplementationStd\MapBuilderStd.cpp ImplementationStd\MapStd.cpp ImplementationStd\MothershipStd.cpp ImplementationStd\MoveStatus.cpp ImplementationStd\OrbitalStationSquareStd.cpp ImplementationStd\PlayerStd.cpp ImplementationStd\Position.cpp ImplementationStd\RescuecabStd.cpp ImplementationStd\ShootStatus.cpp ImplementationStd\Spaceship.cpp ImplementationStd\SpaceshipFactoryStd.cpp ImplementationStd\SquareFactoryStd.cpp ImplementationStd\WaitStatus.cpp /clr:nostdlib 
+         ArtefactSquareStd.cpp
+         AssemblyInfo.cpp
+         AsteroidSquareStd.cpp
+         BattlecruiserStd.cpp
+         EmptySquareStd.cpp
+         EnergyStationSquareStd.cpp
+         GameBuilderStd.cpp
+         GameDicesStd.cpp
+         GameManager.cpp
+         GameStd.cpp
+         MapBuilderStd.cpp
+         MapStd.cpp
+         MothershipStd.cpp
+         MoveStatus.cpp
+         OrbitalStationSquareStd.cpp
+         PlayerStd.cpp
+         Position.cpp
+         RescuecabStd.cpp
+         ShootStatus.cpp
+         Spaceship.cpp
+         Génération de code en cours...
+         Compilation en cours...
+         SpaceshipFactoryStd.cpp
+         SquareFactoryStd.cpp
+         WaitStatus.cpp
+         Génération de code en cours...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\zao\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\Debug\DllModeleCpp.dll" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\DllModeleCpp.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\Debug\DllModeleCpp.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         Debug\ArtefactSquareStd.obj
+         Debug\AssemblyInfo.obj
+         Debug\AsteroidSquareStd.obj
+         Debug\BattlecruiserStd.obj
+         Debug\EmptySquareStd.obj
+         Debug\EnergyStationSquareStd.obj
+         Debug\GameBuilderStd.obj
+         Debug\GameDicesStd.obj
+         Debug\GameManager.obj
+         Debug\GameStd.obj
+         Debug\MapBuilderStd.obj
+         Debug\MapStd.obj
+         Debug\MothershipStd.obj
+         Debug\MoveStatus.obj
+         Debug\OrbitalStationSquareStd.obj
+         Debug\PlayerStd.obj
+         Debug\Position.obj
+         Debug\RescuecabStd.obj
+         Debug\ShootStatus.obj
+         Debug\Spaceship.obj
+         Debug\SpaceshipFactoryStd.obj
+         Debug\SquareFactoryStd.obj
+         Debug\Stdafx.obj
+         Debug\WaitStatus.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            Création de la bibliothèque C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\Debug\DllModeleCpp.lib et de l'objet C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\Debug\DllModeleCpp.exp
+         DllModeleCpp.vcxproj -> C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\Debug\DllModeleCpp.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\Debug\DllModeleCpp.dll;#2" /manifest Debug\DllModeleCpp.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Suppression du fichier "Debug\DllModeleCpp.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Debug\DllModeleCpp.lastbuildstate".
+     1>Génération du projet "C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\DllModeleCpp\DllModeleCpp.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:20.02

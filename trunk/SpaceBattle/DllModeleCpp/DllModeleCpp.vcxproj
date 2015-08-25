@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C11179A2-90AD-4E76-A5B3-E440CFA79777}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>DllModeleCpp</RootNamespace>
+    <SccProjectName>Svn</SccProjectName>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Abstrait\ArtefactSquare.h" />
+    <ClInclude Include="Abstrait\AsteroidSquare.h" />
+    <ClInclude Include="Abstrait\Battlecruiser.h" />
+    <ClInclude Include="Abstrait\EmptySquare.h" />
+    <ClInclude Include="Abstrait\EnergyStationSquare.h" />
+    <ClInclude Include="Abstrait\Game.h" />
+    <ClInclude Include="Abstrait\GameBuilder.h" />
+    <ClInclude Include="Abstrait\GameDices.h" />
+    <ClInclude Include="Abstrait\GameStatus.h" />
+    <ClInclude Include="Abstrait\Map.h" />
+    <ClInclude Include="Abstrait\MapBuilder.h" />
+    <ClInclude Include="Abstrait\Mothership.h" />
+    <ClInclude Include="Abstrait\OrbitalStationSquare.h" />
+    <ClInclude Include="Abstrait\Player.h" />
+    <ClInclude Include="Abstrait\Rescuecab.h" />
+    <ClInclude Include="Abstrait\Spaceship.h" />
+    <ClInclude Include="Abstrait\SpaceshipFactory.h" />
+    <ClInclude Include="Abstrait\Square.h" />
+    <ClInclude Include="Abstrait\SquareFactory.h" />
+    <ClInclude Include="ImplementationStd\ArtefactSquareStd.h" />
+    <ClInclude Include="ImplementationStd\AsteroidSquareStd.h" />
+    <ClInclude Include="ImplementationStd\BattlecruiserStd.h" />
+    <ClInclude Include="ImplementationStd\EmptySquareStd.h" />
+    <ClInclude Include="ImplementationStd\EnergyStationSquareStd.h" />
+    <ClInclude Include="ImplementationStd\GameBuilderStd.h" />
+    <ClInclude Include="ImplementationStd\GameDicesStd.h" />
+    <ClInclude Include="ImplementationStd\GameManager.h" />
+    <ClInclude Include="ImplementationStd\GameStd.h" />
+    <ClInclude Include="ImplementationStd\MapBuilderStd.h" />
+    <ClInclude Include="ImplementationStd\MapStd.h" />
+    <ClInclude Include="ImplementationStd\MothershipStd.h" />
+    <ClInclude Include="ImplementationStd\MoveStatus.h" />
+    <ClInclude Include="ImplementationStd\OrbitalStationSquareStd.h" />
+    <ClInclude Include="ImplementationStd\PlayerStd.h" />
+    <ClInclude Include="ImplementationStd\Position.h" />
+    <ClInclude Include="ImplementationStd\RescuecabStd.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ImplementationStd\ShootStatus.h" />
+    <ClInclude Include="ImplementationStd\SpaceshipFactoryStd.h" />
+    <ClInclude Include="ImplementationStd\SquareFactoryStd.h" />
+    <ClInclude Include="Stdafx.h" />
+    <ClInclude Include="ImplementationStd\WaitStatus.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImplementationStd\ArtefactSquareStd.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="ImplementationStd\AsteroidSquareStd.cpp" />
+    <ClCompile Include="ImplementationStd\BattlecruiserStd.cpp" />
+    <ClCompile Include="ImplementationStd\EmptySquareStd.cpp" />
+    <ClCompile Include="ImplementationStd\EnergyStationSquareStd.cpp" />
+    <ClCompile Include="ImplementationStd\GameBuilderStd.cpp" />
+    <ClCompile Include="ImplementationStd\GameDicesStd.cpp" />
+    <ClCompile Include="ImplementationStd\GameManager.cpp" />
+    <ClCompile Include="ImplementationStd\GameStd.cpp" />
+    <ClCompile Include="ImplementationStd\MapBuilderStd.cpp" />
+    <ClCompile Include="ImplementationStd\MapStd.cpp" />
+    <ClCompile Include="ImplementationStd\MothershipStd.cpp" />
+    <ClCompile Include="ImplementationStd\MoveStatus.cpp" />
+    <ClCompile Include="ImplementationStd\OrbitalStationSquareStd.cpp" />
+    <ClCompile Include="ImplementationStd\PlayerStd.cpp" />
+    <ClCompile Include="ImplementationStd\Position.cpp" />
+    <ClCompile Include="ImplementationStd\RescuecabStd.cpp" />
+    <ClCompile Include="ImplementationStd\ShootStatus.cpp" />
+    <ClCompile Include="ImplementationStd\Spaceship.cpp" />
+    <ClCompile Include="ImplementationStd\SpaceshipFactoryStd.cpp" />
+    <ClCompile Include="ImplementationStd\SquareFactoryStd.cpp" />
+    <ClCompile Include="Stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\WaitStatus.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,88 @@
+﻿<Window x:Class="SpaceBattleView.MainGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainGame" Height="600" Width="800" Background="White" Foreground="Black" MinWidth="800" MinHeight="600" SizeChanged="Window_SizeChanged" BorderBrush="#FF061D3E" Closing="onClosing">
+    <Grid  Name="gridMain">
+        
+        <Grid Height="107" HorizontalAlignment="Center" Name="gridActions" VerticalAlignment="Bottom" Width="718" Margin="33,0,27,0">
+            <Button Content="Move" Height="28" HorizontalAlignment="Left" Margin="235,7,0,0" Name="buttonMakeAMove" VerticalAlignment="Top" Width="60" Click="buttonMakeAMove_Click" />
+            <Button Content="Shoot" Height="28" HorizontalAlignment="Left" Margin="235,40,0,0" Name="buttonShoot" VerticalAlignment="Top" Width="60" Click="buttonShoot_Click" />
+            <Button Height="44" HorizontalAlignment="Left" Margin="18,31,0,0" Name="buttonRollDices" VerticalAlignment="Top" Width="51" Click="buttonRollDices_Click" Focusable="True">
+                <Image Height="29" HorizontalAlignment="Left"  Name="imageRollDices" Stretch="Fill" VerticalAlignment="Top" Width="37" Source="/SpaceBattleView;component/Views/img/Dice/hand_dices.png" />
+            </Button>
+            <RadioButton Height="16" HorizontalAlignment="Left" Margin="81,29,0,0" Name="radioButtonFirstDice" VerticalAlignment="Top" GroupName="RadioChoiceDices" Checked="radioButtonFirstDice_Checked" />
+            <RadioButton Height="16" HorizontalAlignment="Left" Margin="144,28,0,0" Name="radioButtonSecondDice" VerticalAlignment="Top" GroupName="RadioChoiceDices" Checked="radioButtonSecondDice_Checked" />
+            <RadioButton Height="16" HorizontalAlignment="Left" Margin="84,70,0,0" Name="radioButtonBothDices" VerticalAlignment="Top" GroupName="RadioChoiceDices" Checked="radioButtonBothDices_Checked" />
+            <Button Content="Pass" Height="28" HorizontalAlignment="Left" Margin="235,72,0,0" Name="buttonPass" VerticalAlignment="Top" Width="60" Click="buttonPass_Click" />
+            <RichTextBox Height="83" HorizontalAlignment="Right" Margin="0,11,34,0" Name="richTextBoxLog" VerticalAlignment="Top" Width="362" Background="#FF1D1D1D" Foreground="#FF62FFE2" FontFamily="Consolas" FontSize="11" IsReadOnly="True" AcceptsReturn="False" BorderBrush="#FF0064F0">
+                <RichTextBox.Resources>
+                    <Style TargetType="{x:Type Paragraph}">
+                        <Setter Property="Margin" Value="0"/>
+                    </Style>
+                </RichTextBox.Resources>
+            </RichTextBox>
+            <Image Height="40" HorizontalAlignment="Left" Margin="96,13,0,0" Name="imageDice1" Stretch="Fill" VerticalAlignment="Top" Width="40" Source="/SpaceBattleView;component/Views/img/Dice/dice0.png" />
+            <Image Height="40" HorizontalAlignment="Left" Margin="160,12,0,0" Name="imageDice2" Source="/SpaceBattleView;component/Views/img/Dice/dice0.png" Stretch="Fill" VerticalAlignment="Top" Width="40" />
+            <Image Height="40" HorizontalAlignment="Left" Margin="102,55,0,0" Name="imageDiceBoth1" Source="/SpaceBattleView;component/Views/img/Dice/dice0.png" Stretch="Fill" VerticalAlignment="Top" Width="40" />
+            <Image Height="40" HorizontalAlignment="Left" Margin="157,55,0,0" Name="imageDiceBoth2" Source="/SpaceBattleView;component/Views/img/Dice/dice0.png" Stretch="Fill" VerticalAlignment="Top" Width="40" />
+            <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="139,60,0,0" Name="label1" VerticalAlignment="Top" FontWeight="Bold" FontSize="15" />
+            <Image Height="16" HorizontalAlignment="Left" Margin="696,72,0,0" Name="imageMusic" Stretch="Fill" VerticalAlignment="Top" Width="16" Source="/SpaceBattleView;component/Views/img/note.png" MouseUp="imageMusic_MouseUp" />
+            <Grid.Background>
+                <ImageBrush ImageSource="/SpaceBattleView;component/Views/img/hub_bas.png" Stretch="Uniform" TileMode="None" />
+            </Grid.Background>
+        </Grid>
+        
+        
+        <Grid HorizontalAlignment="Stretch" Name="gridGame2" VerticalAlignment="Stretch" ShowGridLines="False" Margin="100,0,100,113">
+            <Image HorizontalAlignment="Left" Margin="0" Name="imageStars" Stretch="Uniform" VerticalAlignment="Top" Source="/SpaceBattleView;component/Views/img/stars.png" />
+            <Image HorizontalAlignment="Left" Margin="0" Name="imageStars2" Stretch="Uniform" VerticalAlignment="Top" Source="/SpaceBattleView;component/Views/img/stars2.png" />
+            <Grid HorizontalAlignment="Stretch" Name="gridGame" VerticalAlignment="Stretch" ShowGridLines="False" Margin="0,0,0,0" Background="{x:Null}">
+               
+            </Grid>
+            
+        </Grid>
+        
+
+        <Grid Height="218" HorizontalAlignment="Left" Margin="2,230,0,0" Name="gridPBlue" VerticalAlignment="Top" Width="94">
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="57,119,0,0" Name="textBlockArtefactsPBlue" Text="0" VerticalAlignment="Top" Width="11" FontFamily="Shruti" FontSize="15" FontWeight="Bold" />
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="58,157,0,0" Name="textBlockShots1PBlue" Text="3" VerticalAlignment="Top" FontFamily="Shruti" FontSize="15" FontWeight="Bold" />
+            <TextBlock Height="23" Margin="58,87,16,108" Name="textBlockTeam2" Text="2" FontFamily="Shruti" FontSize="15" />
+            <Grid.Background>
+                <ImageBrush ImageSource="/SpaceBattleView;component/Views/img/players/player_blue.png" Stretch="Uniform" TileMode="None" />
+            </Grid.Background>
+        </Grid>
+        
+        <Grid Height="218" HorizontalAlignment="Right" Name="gridPGreen" VerticalAlignment="Top" Width="94">
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="59,121,0,0" Name="textBlockArtefactsPGreen" Text="0" VerticalAlignment="Top" Width="11" FontFamily="Shruti" FontSize="15" FontWeight="Bold" />
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="59,0,0,37" Name="textBlockShots1PGreen" Text="3" VerticalAlignment="Bottom" Foreground="Black" FontFamily="Shruti" FontSize="15" FontWeight="Bold" />
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="56,86,0,0" Name="textBlockTeam3" Text="3" VerticalAlignment="Top" FontFamily="Shruti" FontSize="16" FontWeight="Bold" />
+            <Grid.Background>
+                <ImageBrush ImageSource="/SpaceBattleView;component/Views/img/players/player_green.png" Stretch="Uniform" TileMode="None" />
+            </Grid.Background>
+        </Grid>
+        <Grid Height="218" HorizontalAlignment="Right" Margin="0,230,0,0" Name="gridPYellow" VerticalAlignment="Top" Width="94">
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="59,119,0,0" Name="textBlockArtefactsPYellow" Text="0" VerticalAlignment="Top" Width="11" FontFamily="Shruti" FontSize="15" FontWeight="Bold" />
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="59,157,0,0" Name="textBlockShots1PYellow" Text="3" VerticalAlignment="Top" FontFamily="Shruti" FontSize="15" FontWeight="Bold" />
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="56,87,0,0" Name="textBlockTeam4" Text="4" VerticalAlignment="Top" FontFamily="Shruti" FontSize="15" FontWeight="Normal" />
+            <Grid.Background>
+                <ImageBrush ImageSource="/SpaceBattleView;component/Views/img/players/player_yellow.png" Stretch="Uniform" TileMode="None" />
+            </Grid.Background>
+        </Grid>
+        <Grid Height="218" HorizontalAlignment="Left" Name="gridPRed" VerticalAlignment="Top" Width="94">
+            <Grid.Background>
+                <ImageBrush ImageSource="/SpaceBattleView;component/Views/img/players/player_red.png" Stretch="Uniform" TileMode="None" />
+            </Grid.Background>
+            <TextBlock Height="23" Margin="59,117,16,78" Name="textBlockArtefactsPRed" Text="0" FontWeight="Bold" FontFamily="Shruti" FontSize="15" />
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="59,158,0,0" Name="textBlockShots1PRed" Text="3" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Shruti" FontSize="15" />
+            <TextBlock Height="19" Margin="59,86,16,113" Name="textBlockTeam1" Text="1" FontWeight="Normal" FontSize="16" FontFamily="Shruti" />
+        </Grid>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="/SpaceBattleView;component/Views/img/wallpaper-709367.jpg" />
+        </Grid.Background>
+    </Grid>
+
+
+
+</Window>
+

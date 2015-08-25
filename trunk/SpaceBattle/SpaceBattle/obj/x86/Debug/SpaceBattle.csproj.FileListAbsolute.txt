@@ -1,0 +1,70 @@
+c:\users\zao\documents\visual studio 2010\Projects\SpaceBattle\SpaceBattle\bin\Debug\SpaceBattle.exe
+c:\users\zao\documents\visual studio 2010\Projects\SpaceBattle\SpaceBattle\bin\Debug\SpaceBattle.pdb
+c:\users\zao\documents\visual studio 2010\Projects\SpaceBattle\SpaceBattle\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\zao\documents\visual studio 2010\Projects\SpaceBattle\SpaceBattle\obj\x86\Debug\MainWindow.baml
+c:\users\zao\documents\visual studio 2010\Projects\SpaceBattle\SpaceBattle\obj\x86\Debug\MainWindow.g.cs
+c:\users\zao\documents\visual studio 2010\Projects\SpaceBattle\SpaceBattle\obj\x86\Debug\App.g.cs
+c:\users\zao\documents\visual studio 2010\Projects\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle_MarkupCompile.cache
+c:\users\zao\documents\visual studio 2010\Projects\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.g.resources
+c:\users\zao\documents\visual studio 2010\Projects\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.Properties.Resources.resources
+c:\users\zao\documents\visual studio 2010\Projects\SpaceBattle\SpaceBattle\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\zao\documents\visual studio 2010\Projects\SpaceBattle\SpaceBattle\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\zao\documents\visual studio 2010\Projects\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.exe
+c:\users\zao\documents\visual studio 2010\Projects\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.pdb
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.exe
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.pdb
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\bin\Debug\SpaceBattle.exe
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\bin\Debug\SpaceBattle.pdb
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\bin\Debug\mWrapper.dll
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\bin\Debug\DllModeleCpp.dll
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\bin\Debug\mWrapper.pdb
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\bin\Debug\DllModeleCpp.pdb
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\obj\x86\Debug\MainGame.baml
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\obj\x86\Debug\PlayerSelection.baml
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\obj\x86\Debug\MainGame.g.cs
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\obj\x86\Debug\PlayerSelection.g.cs
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\obj\x86\Debug\App.g.cs
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle_MarkupCompile.cache
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.g.resources
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.Properties.Resources.resources
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-zongule\SpaceBattle\SpaceBattle\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.exe
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.pdb
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\bin\Debug\SpaceBattle.exe
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\bin\Debug\SpaceBattle.pdb
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\bin\Debug\mWrapper.dll
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\bin\Debug\DllModeleCpp.dll
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\bin\Debug\mWrapper.pdb
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\bin\Debug\DllModeleCpp.pdb
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\MainGame.baml
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\PlayerSelection.baml
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\MainGame.g.cs
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\PlayerSelection.g.cs
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\App.g.cs
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle_MarkupCompile.cache
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.g.resources
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.Properties.Resources.resources
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle-seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\bin\Debug\SpaceBattle.exe
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\bin\Debug\SpaceBattle.pdb
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\bin\Debug\mWrapper.dll
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\bin\Debug\DllModeleCpp.dll
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\bin\Debug\mWrapper.pdb
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\bin\Debug\DllModeleCpp.pdb
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\MainGame.baml
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\PlayerSelection.baml
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\MainGame.g.cs
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\PlayerSelection.g.cs
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\App.g.cs
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle_MarkupCompile.cache
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.g.resources
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.Properties.Resources.resources
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.exe
+C:\Users\zao\Documents\Visual Studio 2010\Projects\SpaceBattle seb-oliv\SpaceBattle\SpaceBattle\obj\x86\Debug\SpaceBattle.pdb

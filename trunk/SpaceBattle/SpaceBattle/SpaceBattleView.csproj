@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79FE0207-A64A-43AA-8BD7-5C55E820B612}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SpaceBattleView</RootNamespace>
+    <AssemblyName>SpaceBattleView</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SpaceBattleView.App</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Projet1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controller\Controller.cs" />
+    <Compile Include="Views\LogView.cs" />
+    <Compile Include="Utilities.cs" />
+    <Page Include="MainGame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PlayerSelection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Views\GameDicesView.cs" />
+    <Compile Include="Views\PlayerView.cs" />
+    <Compile Include="Views\SquareView\ArtefactSquareView.cs" />
+    <Compile Include="Views\SquareView\AsteroidSquareView.cs" />
+    <Compile Include="Views\SquareView\EnergyStationSquareView.cs" />
+    <Compile Include="Views\SquareView\OrbitalStationSquareView.cs" />
+    <Compile Include="Views\SquareView\EmptySquareView.cs" />
+    <Compile Include="Views\SquareView\SquareView.cs" />
+    <Compile Include="MainGame.xaml.cs">
+      <DependentUpon>MainGame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerSelection.xaml.cs">
+      <DependentUpon>PlayerSelection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Views\img\Dice\dice.psd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mWrapper\mWrapper.vcxproj">
+      <Project>{2917D828-8FD1-423C-BF6B-178181DCC951}</Project>
+      <Name>mWrapper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img\Dice\dice1.png" />
+    <Resource Include="Views\img\Dice\dice2.png" />
+    <Resource Include="Views\img\Dice\dice3.png" />
+    <Resource Include="Views\img\Dice\dice4.png" />
+    <Resource Include="Views\img\Dice\dice5.png" />
+    <Resource Include="Views\img\Dice\dice6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img\background800.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img\Spaceship\Blue\Battlecruiser.png" />
+    <Resource Include="Views\img\Spaceship\Blue\Mothership.png" />
+    <Resource Include="Views\img\Spaceship\Blue\Rescuecab.png" />
+    <Resource Include="Views\img\Spaceship\Green\Battlecruiser.png" />
+    <Resource Include="Views\img\Spaceship\Green\Mothership.png" />
+    <Resource Include="Views\img\Spaceship\Green\Rescuecab.png" />
+    <Resource Include="Views\img\Spaceship\Red\Battlecruiser.png" />
+    <Resource Include="Views\img\Spaceship\Red\Mothership.png" />
+    <Resource Include="Views\img\Spaceship\Red\Rescuecab.png" />
+    <Resource Include="Views\img\Spaceship\Yellow\Battlecruiser.png" />
+    <Resource Include="Views\img\Spaceship\Yellow\Mothership.png" />
+    <Resource Include="Views\img\Spaceship\Yellow\Rescuecab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img\background800_old.png" />
+    <Resource Include="Views\img\Spaceship\Blue\Battlecruiser_artefact.png" />
+    <Resource Include="Views\img\Spaceship\Blue\Mothership_artefact.png" />
+    <Resource Include="Views\img\Spaceship\Blue\Rescuecab_artefact.png" />
+    <Resource Include="Views\img\Spaceship\Green\Battlecruiser_artefact.png" />
+    <Resource Include="Views\img\Spaceship\Green\Mothership_artefact.png" />
+    <Resource Include="Views\img\Spaceship\Green\Rescuecab_artefact.png" />
+    <Resource Include="Views\img\Spaceship\Red\Battlecruiser_artefact.png" />
+    <Resource Include="Views\img\Spaceship\Red\Mothership_artefact.png" />
+    <Resource Include="Views\img\Spaceship\Red\Rescuecab_artefact.png" />
+    <Resource Include="Views\img\Spaceship\Yellow\Battlecruiser_artefact.png" />
+    <Resource Include="Views\img\Spaceship\Yellow\Mothership_artefact.png" />
+    <Resource Include="Views\img\Spaceship\Yellow\Rescuecab_artefact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img\wallpaper-177507.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img\wallpaper-568354.jpg" />
+    <Resource Include="Views\img\wallpaper-709367.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img\Dice\dice0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img\Dice\hand_dices.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img\welcome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img\welcome2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img\welcome3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img\welcome4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img\elements\asteroid.png" />
+    <Resource Include="Views\img\elements\canon.png" />
+    <Resource Include="Views\img\elements\canon_white.png" />
+    <Resource Include="Views\img\elements\ruby.png" />
+    <Resource Include="Views\img\elements\ruby_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img\players\player_blue.png" />
+    <Resource Include="Views\img\players\player_green.png" />
+    <Resource Include="Views\img\players\player_red.png" />
+    <Resource Include="Views\img\players\player_yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\img\hub_bas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sounds\energy.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sounds\hit.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sounds\wonartefact.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Projet1.ico" />
+    <Content Include="sounds\getartefact.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sounds\laser.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sounds\move.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sounds\theme.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Views\img\Projet1.ico" />
+    <Resource Include="Views\img\stars2.png" />
+    <Resource Include="Views\img\stars.png" />
+    <Resource Include="Views\img\m067_stars.png" />
+    <Resource Include="Views\img\players\player_blue_off.png" />
+    <Resource Include="Views\img\players\player_green_off.png" />
+    <Resource Include="Views\img\players\player_red_off.png" />
+    <Resource Include="Views\img\players\player_yellow_off.png" />
+    <Resource Include="Views\img\nonote.png" />
+    <Resource Include="Views\img\note.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Abstrait">
+      <UniqueIdentifier>{595faf8e-4368-4496-9513-01a790e61cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\ImplementationStd">
+      <UniqueIdentifier>{822f6e36-79b0-4476-b9c4-6115c36938cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stdafx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\Square.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\Map.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\GameDices.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\ArtefactSquare.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\AsteroidSquare.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\EmptySquare.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\EnergyStationSquare.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\OrbitalStationSquare.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\MapBuilder.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\SquareFactory.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\Spaceship.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\Battlecruiser.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\Mothership.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\Rescuecab.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\SpaceshipFactory.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\Player.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\Game.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\GameBuilder.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstrait\GameStatus.h">
+      <Filter>Fichiers d%27en-tête\Abstrait</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\ArtefactSquareStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\AsteroidSquareStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\BattlecruiserStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\EmptySquareStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\EnergyStationSquareStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\GameBuilderStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\GameDicesStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\GameStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\MapBuilderStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\MapStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\MothershipStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\OrbitalStationSquareStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\PlayerStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\RescuecabStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\SpaceshipFactoryStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\SquareFactoryStd.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\GameManager.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\MoveStatus.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\Position.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\ShootStatus.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationStd\WaitStatus.h">
+      <Filter>Fichiers d%27en-tête\ImplementationStd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\ArtefactSquareStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\AsteroidSquareStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\BattlecruiserStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\EmptySquareStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\EnergyStationSquareStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\GameBuilderStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\GameDicesStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\GameStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\MapBuilderStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\MapStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\MothershipStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\OrbitalStationSquareStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\PlayerStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\RescuecabStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\SpaceshipFactoryStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\SquareFactoryStd.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\GameManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\MoveStatus.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\Position.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\ShootStatus.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\Spaceship.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationStd\WaitStatus.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="app.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
